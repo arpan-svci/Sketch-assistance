@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKETCH ASSISTANCE</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    script(src="../static/index.js") 
+</head>
+<body>
+    <div class="con">
+        <h1 style="text-align: center;">SKETCH ASSISTANCE</h1>
+        <form action="/" method="post" id="contact" enctype="multipart/form-data">
+            <input type="file" name="file" id="image">
+            <button class="btn">Submit</button>
+        </form>
+        <canvas id="mycanvas"></canvas>
+        <div id="display" style="height: 40px;width: 40px;"></div>
+        <img src="#{image}" alt="" id="image1">
+        <img src="#{image1}" alt="" id="image2">
+        <img src="#{image2}" alt="" id ="image3">
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.con{
+    border: 3px solid red;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: aqua;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    margin: auto;
+    display: block;
+}
+canvas{
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    margin: auto;
+    display: block;
+}
+input{
+        border: 6px solid yellowgreen;
+        background-color: yellow;
+        text-align: center;
+        display: block;
+        width: 60%;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: 20px;
+}
+button{
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border:2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+*{
+    color: blue;
+}
